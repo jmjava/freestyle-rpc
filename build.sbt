@@ -167,9 +167,9 @@ lazy val `benchmarks-vprev` = project
   .in(file("benchmarks/vprev"))
   .settings(
     libraryDependencies ++= Seq(
-      "io.frees" %% "frees-rpc-client-core" % lastReleasedV,
-      "io.frees" %% "frees-rpc-server"      % lastReleasedV,
-      "io.frees" %% "frees-rpc-testing"     % lastReleasedV
+      "io.higherkindness" %% "frees-rpc-client-core" % lastReleasedV,
+      "io.higherkindness" %% "frees-rpc-server"      % lastReleasedV,
+      "io.higherkindness" %% "frees-rpc-testing"     % lastReleasedV
     )
   )
   .settings(moduleName := "frees-rpc-benchmarks-vprev")
